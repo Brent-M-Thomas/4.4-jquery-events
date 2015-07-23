@@ -6,7 +6,7 @@ var injectLivereload = require('broccoli-inject-livereload');
 var publicWithReload = injectLivereload('public');
 
 var includePaths = [
-    'assets',
+    'assets/scss',
     'bower_components',
     'bower_components/fontawesome/scss',
     'bower_components/bourbon/app/assets/stylesheets',
@@ -19,5 +19,5 @@ funnel('bower_components', {
 
 var compiledCSS = sass(includePaths, 'app.scss', 'app.css');
 
-module.exports = merge(['public', 'bower_components', 'assets', compiledCSS]);
+module.exports = merge(['public', 'bower_components', 'assets/js', compiledCSS]);
 
