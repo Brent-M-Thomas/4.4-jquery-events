@@ -1,0 +1,16 @@
+1) New issue
+2) New folder + git, bower and npm init
+3) Boilerplate file
+4) Build tools
+5) Bower install --save jquery, neat, reset-css
+6) Hub create, commit and push master
+7) git checkout -b develop
+8) Add HTML
+9) Commit, push and create Pull request.
+10) Style header button
+11) Style "Open" header & hover
+12) Style sublist
+13) Create a var w/ $ to get buttons and test click events
+14) Make button change on click
+15) Make submenu open on click
+16) Make other sub menus close on click
