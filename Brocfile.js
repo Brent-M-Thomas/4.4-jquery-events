@@ -7,7 +7,7 @@ var publicWithReload = injectLivereload('public');
 
 var includePaths = [
     'assets/scss',
-    'bower_components',
+    'bower_components/reset-css',
     'bower_components/fontawesome/scss',
     'bower_components/bourbon/app/assets/stylesheets',
     'bower_components/neat/app/assets/stylesheets'
@@ -17,7 +17,7 @@ funnel('bower_components', {
   files:['jquery/dist/jquery.min.js']
 });
 
-var compiledCSS = sass(includePaths, 'app.scss', 'app.css');
+var compiledCSS = sass(includePaths, 'accordion.scss', 'accordion.css');
 
 module.exports = merge(['public', 'bower_components', 'assets/js', compiledCSS]);
 
