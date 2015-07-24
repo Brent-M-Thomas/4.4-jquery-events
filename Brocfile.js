@@ -18,6 +18,7 @@ funnel('bower_components', {
 });
 
 var compiledCSS = sass(includePaths, 'accordion.scss', 'accordion.css');
+var compiledCSS2 = sass(includePaths, 'keyboard.scss', 'keyboard.css');
 
-module.exports = merge(['public', 'bower_components', 'assets/js', compiledCSS]);
+module.exports = merge(['public', 'bower_components', 'assets/js', compiledCSS, compiledCSS2]);
 
