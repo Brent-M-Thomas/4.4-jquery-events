@@ -1,0 +1,72 @@
+@import 'reset';
+$fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+@import 'font-awesome';
+@import 'bourbon';
+@import 'neat';
+$default-bg1: #58707C;
+$default-bg2:#93A5B9;
+$default-bg3:#252A2F;
+$alt-bg1:#38B536;
+$def-font-color1: white;
+$def-font-color2: black;
+$default-border1:#222B30;
+
+body {
+    font-family: arial;
+}
+li {
+    padding: 2px;
+}
+
+
+.easy-mode>ul {
+    list-style-type: none;
+    width: 10em;
+    background: $default-bg1;
+    border: 2px solid $default-border1;
+    margin: 1em;
+    font-size: 2em;
+}
+
+.menu-lv1 {
+    padding: .2em 0 0;
+    border: 1px solid $default-border1;
+    color: $def-font-color1;
+    i {
+        margin-left: .3em;
+    }
+
+}
+ol {
+    display: none;
+    width: 100%;
+    background: $default-bg2;
+    color: $def-font-color2;
+    list-style-type: decimal;
+    list-style-position: inside;
+    >li{
+        border-bottom: 1px solid $default-bg1;
+        padding-left: .5em;
+}
+}
+
+.menu-lv1 p {
+    display: inline-block;
+    float: right;
+    font-size: .6em;
+    padding: .1em .5em;
+    border-radius: 1em;
+    text-align: center;
+    margin-right: .5em;
+    border: 2px solid $default-bg1;
+    margin-top: 3px;
+
+}
+.menu-lv1>p {
+    background: $default-bg3;
+    margin-top: -1px;
+}
+
+.active {
+    background: $alt-bg1;
+}

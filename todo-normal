@@ -1,0 +1,14 @@
+1) Create HTML, scss and js files
+2) Update Brocfile
+3) write HTML
+    a. include an element for each key
+    b. set class for "Shift" key and one for shiftable keys
+    c. set class for "Caps Lock" key and one for Caps-Lockable keys
+4) write scss
+    a. position keys according to model
+    b. add indicators for "Shift" and "Caps Lock" keys
+5) write JS
+    a. create functions for each key to print out the appropriate character
+    b. create functions for shift-characters
+    c. create functions to enable "Shift" key functionality
+    d. create functions to enable "Caps Lock" key functionality
